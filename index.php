@@ -14,7 +14,7 @@
 //            $name = $_GET['name'];
 //            echo $greeting . $name . "!";
 //        ?>
-        <?= 'Hello '. $_GET['name'];?>
+        <?= 'Hello '. htmlspecialchars($_GET['name']);?>
     </hi> <!-- ! més tabular h1 més tabular -->
 </body>
 </html>
