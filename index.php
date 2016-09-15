@@ -1,5 +1,6 @@
 <?php
 
+$greeting= 'Hola ';
 $name = "David";
 
-echo 'Hola ' . $name . '!';
+echo $greeting . $name . '!';
