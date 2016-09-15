@@ -1,5 +1,7 @@
 <?php
 
-$greeting = "Hola universe!";
+//Un comentari Cntl + /
 
-echo $greeting;
+$name = "David";
+
+echo "Hola $name!";
