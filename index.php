@@ -1,5 +1,5 @@
 <?php
 
-$greeting = "Hola món!";
+$greeting = "Hola universe!";
 
 echo $greeting;
