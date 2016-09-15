@@ -1,20 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <hi>
-<!--        --><?php
-//            $greeting= "Hola ";
-//            $name = $_GET['name'];
-//            echo $greeting . $name . "!";
-//        ?>
-        <?= 'Hello '. htmlspecialchars($_GET['name']);?>
-    </hi> <!-- ! més tabular h1 més tabular -->
-</body>
-</html>
+<?php
+
+$greeting = "Hola %_GET['name']!";
+
+require 'template.php';
