@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<hi><?php echo "Hola món!"; ?></hi> <!-- ! mes tabular h1 més tabular -->
+<hi><?php $greeting= "Hola món!";echo $greeting; ?></hi> <!-- ! mes tabular h1 més tabular -->
 </body>
 </html>
