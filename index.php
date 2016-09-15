@@ -10,9 +10,10 @@
 <body>
     <hi>
         <?php
-            $greeting= "Hola món!";
-            echo $greeting;
+            $greeting= "Hola ";
+            $name = $_GET['name'];
+            echo $greeting . $name . "!";
         ?>
-    </hi> <!-- ! mes tabular h1 més tabular -->
+    </hi> <!-- ! més tabular h1 més tabular -->
 </body>
 </html>
