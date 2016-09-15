@@ -1,6 +1,6 @@
 <?php
 
-$greeting= 'Hola ';
+$nova = 'Hola ';
 $name = "David";
 
-echo $greeting . $name . '!';
+echo $nova  . $name . '!';
