@@ -9,11 +9,12 @@
 </head>
 <body>
     <hi>
-        <?php
-            $greeting= "Hola ";
-            $name = $_GET['name'];
-            echo $greeting . $name . "!";
-        ?>
+<!--        --><?php
+//            $greeting= "Hola ";
+//            $name = $_GET['name'];
+//            echo $greeting . $name . "!";
+//        ?>
+        <?= 'Hello '. $_GET['name'];?>
     </hi> <!-- ! més tabular h1 més tabular -->
 </body>
 </html>
