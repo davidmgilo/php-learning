@@ -16,4 +16,7 @@ $person = [
     'married' => yes
 ];
 
+print_r($names);
+var_dump($names);
+
 require 'template.php';
