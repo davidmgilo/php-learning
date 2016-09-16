@@ -1,5 +1,17 @@
 <?php
 
-$greeting = "Hola " . $_GET['name'] ."!";
+//$greeting = "Hola " . $_GET['name'] ."!";
 
-require 'template.php';
+//ARRAYS o vectors
+// ESTRUCTURA DE DADES;
+// Arrays PHP totes les estructures: Maps, Piles, Vectors, Llistes, etc.
+
+//$names = array();
+
+$names = [
+    'Sergi',
+    'Xavi',
+    'Romeu'
+];
+
+//require 'template.php';
