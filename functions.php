@@ -9,3 +9,7 @@
 function hello($name){
     echo "Hola ". $name."!";
 }
+
+function hello2($name, $surname){
+    echo "Hola ". $name. " ". $surname ."!";
+}
