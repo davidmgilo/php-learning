@@ -10,7 +10,8 @@
 <body>
     <hi>
         <ul>
-            <li><?= $person['married'] ? "Casat" : "Solter" ; ?>
+            <li><?= $person['married'] ? 'Casat' : 'Solter' ; ?>
+            <span class="icon">&#9989</span>
             </li>
         </ul>
 
