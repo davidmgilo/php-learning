@@ -1,9 +1,8 @@
 <?php
 
-function hello(){
-    echo "Hola!";
+function hello($name){
+    echo "Hola ". $name."!";
 }
 
-hello();
 
 require 'template.php';

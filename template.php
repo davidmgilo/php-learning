@@ -10,7 +10,7 @@
 <body>
     <hi>
         <ul>
-            <li><?= hello(); ?>
+            <li><?= hello('David'); ?>
 
             </li>
         </ul>
