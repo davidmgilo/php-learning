@@ -13,3 +13,9 @@ function hello($name){
 function hellovtortosina($name, $surname = "Curto"){
     echo "Hola ". $name. " ". $surname ."!";
 }
+
+function printArgs($args){
+    foreach ($args as $arg) {
+        echo $arg . ',';
+    }
+}

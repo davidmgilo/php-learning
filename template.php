@@ -10,7 +10,7 @@
 <body>
     <hi>
         <ul>
-            <li><?= hellovtortosina('David', 'Martinez'); ?>
+            <li><?= printArgs([1,2]); ?>
 
             </li>
         </ul>
