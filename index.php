@@ -11,11 +11,14 @@
 $names = [
     'Sergi',
     'Xavi',
-    'Romeu'
+    45,
+    true
 ];
 
+echo "<ul>";
 foreach ($names as $name) {
-    echo "$name</br>"; // >br perqué és html!!
+    echo "<li>$name</li>"; // >br perqué és html!!
 }
+echo "</ul>";
 
 //require 'template.php';
