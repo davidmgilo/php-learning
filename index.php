@@ -1,8 +1,5 @@
 <?php
 
-function hello($name){
-    echo "Hola ". $name."!";
-}
-
+require 'functions.php';
 
 require 'template.php';
