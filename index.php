@@ -14,4 +14,8 @@ $names = [
     'Romeu'
 ];
 
+foreach ($names as $name) {
+    echo "$name</br>"; // >br perqué és html!!
+}
+
 //require 'template.php';
