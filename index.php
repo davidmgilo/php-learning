@@ -16,9 +16,9 @@ $person = [
     'married' => yes
 ];
 
-die('Xivato!');
-echo "NO S'EXECUTA MAI";
-print_r($names);
-var_dump($names);
+//die('Xivato!');
+//echo "NO S'EXECUTA MAI";
+//print_r($names);
+//var_dump($names);
 
 require 'template.php';

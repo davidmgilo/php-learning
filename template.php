@@ -10,8 +10,8 @@
 <body>
     <hi>
         <ul>
-            <?php foreach ($names as $name) : ?>
-                <li><?= $name ?></li>
+            <?php foreach ($person as $feature => $featureValue) : ?> <!-- ó featureKey => feature -->
+                <li><b><?= $feature ?></b> : <?= $featureValue ?></li>
             <?php endforeach;?>
         </ul>
 
