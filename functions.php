@@ -10,6 +10,6 @@ function hello($name){
     echo "Hola ". $name."!";
 }
 
-function hello2($name, $surname){
+function hellovtortosina($name, $surname = "Curto"){
     echo "Hola ". $name. " ". $surname ."!";
 }
