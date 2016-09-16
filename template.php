@@ -14,7 +14,7 @@
 
             foreach ($names as $name) {
                 echo "<li>$name</li>"; // >br perqué és html!!
-            }
+            } // Millor forma en php
 
             ?>
 
@@ -22,7 +22,7 @@
         <ul>
             <?php foreach ($names as $name) : ?>
                 <li><?= $name ?></li>
-            <?php endforeach;?>
+            <?php endforeach;?> <!-- Millor forma en html -->
         </ul>
 
     </hi> <!-- ! més tabular h1 més tabular -->
