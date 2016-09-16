@@ -10,21 +10,11 @@
 <body>
     <hi>
         <ul>
-            <?php
-
-            foreach ($names as $name) {
-                echo "<li>$name</li>"; // >br perqué és html!!
-            } // Millor forma en php
-
-            ?>
-
-        </ul>
-        <ul>
             <?php foreach ($names as $name) : ?>
                 <li><?= $name ?></li>
-            <?php endforeach;?> <!-- Millor forma en html -->
+            <?php endforeach;?>
         </ul>
 
-    </hi> <!-- ! més tabular h1 més tabular -->
+    </hi>
 </body>
 </html>

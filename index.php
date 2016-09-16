@@ -1,17 +1,19 @@
 <?php
 
-//$greeting = "Hola " . $_GET['name'] ."!";
+//ARRAYS ASSOCIATIUS
 
-//ARRAYS o vectors
-// ESTRUCTURA DE DADES;
-// Arrays PHP totes les estructures: Maps, Piles, Vectors, Llistes, etc.
+$names = [ //PER DEFECTE
+    0 => 'Sergi',
+    1 => 'Xavi',
+    2 => 'Romeu'
+];
 
-//$names = array();
-
-$names = [
-    'Sergi',
-    'Xavi',
-    'Romeu'
+$person = [
+    'name' => 'Sergi',
+    'surname' => 'Tur',
+    'surname2' => 'Badenas',
+    'edat' => 38,
+    'married' => yes
 ];
 
 require 'template.php';
