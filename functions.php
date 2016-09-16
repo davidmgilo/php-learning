@@ -19,3 +19,9 @@ function printArgs($args){
         echo $arg . ',';
     }
 }
+
+function sum(){
+    $numbers = func_get_args();
+
+    return array_sum($numbers);
+}
