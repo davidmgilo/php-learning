@@ -16,6 +16,9 @@ $person = [
     'married' => true
 ];
 
+$married = true;
+$married = false;
+
 echo $names[0];
 echo $person['surname'];
 

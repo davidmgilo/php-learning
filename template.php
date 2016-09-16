@@ -10,9 +10,14 @@
 <body>
     <hi>
         <ul>
-            <?php foreach ($person as $feature => $featureValue) : ?> <!-- ó featureKey => feature -->
-                <li><b><?= $feature ?></b> : <?= $featureValue ?></li>
-            <?php endforeach;?>
+            <li><?php
+                if ($person['married']){
+                echo "Casat";
+                } else {
+                    echo "Solter";
+                }
+                ?>
+            </li>
         </ul>
 
     </hi>
