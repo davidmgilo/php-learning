@@ -11,14 +11,7 @@
 $names = [
     'Sergi',
     'Xavi',
-    45,
-    true
+    'Romeu'
 ];
 
-echo "<ul>";
-foreach ($names as $name) {
-    echo "<li>$name</li>"; // >br perqué és html!!
-}
-echo "</ul>";
-
-//require 'template.php';
+require 'template.php';

@@ -9,7 +9,15 @@
 </head>
 <body>
     <hi>
-        <?= $greeting;?>
+        <?php
+
+        echo "<ul>";
+        foreach ($names as $name) {
+            echo "<li>$name</li>"; // >br perqué és html!!
+        }
+        echo "</ul>";
+
+        ?>
     </hi> <!-- ! més tabular h1 més tabular -->
 </body>
 </html>
