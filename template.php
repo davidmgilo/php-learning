@@ -10,13 +10,7 @@
 <body>
     <hi>
         <ul>
-            <li><?php
-                if ($person['married']){
-                echo "Casat";
-                } else {
-                    echo "Solter";
-                }
-                ?>
+            <li><?= $person['married'] ? "Casat" : "Solter" ; ?>
             </li>
         </ul>
 
