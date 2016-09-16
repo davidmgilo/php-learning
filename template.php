@@ -19,7 +19,11 @@
             ?>
 
         </ul>
-
+        <ul>
+            <?php foreach ($names as $name) : ?>
+                <li><?= $name ?></li>
+            <?php endforeach;?>
+        </ul>
 
     </hi> <!-- ! més tabular h1 més tabular -->
 </body>
