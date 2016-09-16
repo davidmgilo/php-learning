@@ -10,7 +10,7 @@
 <body>
     <hi>
         <ul>
-            <li><?= printArgs([1,2]); ?>
+            <li><?= printArgs([1,2,'3']); ?>
 
             </li>
         </ul>
