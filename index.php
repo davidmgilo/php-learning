@@ -13,12 +13,10 @@ $person = [
     'surname' => 'Tur',
     'surname2' => 'Badenas',
     'edat' => 38,
-    'married' => yes
+    'married' => true
 ];
 
-//die('Xivato!');
-//echo "NO S'EXECUTA MAI";
-//print_r($names);
-//var_dump($names);
+echo $names[0];
+echo $person['surname'];
 
 require 'template.php';
