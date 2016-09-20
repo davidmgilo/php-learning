@@ -18,6 +18,7 @@ class Task {
 //POJO
 //POPO
 // PLAIN OLD OBJECT
+// CONTENEDOR / ESTRUCTURA DE DADES
 $task = new Task("Aprendre PHP", false);
 $task2 = new Task("Netejar habitació", true);
 $task3 = new Task("Comprar pa", false);
