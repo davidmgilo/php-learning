@@ -23,5 +23,13 @@ class Task {
     public function isComplete(){
         return $this->completed;
     }
+
+    // fer get i set alhora
+    public function completed ($completed=null){
+        if($completed==null){
+            return $completed;
+        }
+        $this->completed = $completed;
+    }
 }
 
