@@ -4,7 +4,7 @@ class Task {
 
     public $description;
 
-    public $completed;
+    protected $completed;
 
     public function __construct($description,$completed)
     {
