@@ -19,7 +19,7 @@ $pdo = Connection::make();
 
 //$pdo = connectDb();
 
-$query = new QueryBuilder();
-$tasks = $query->all($pdo,"todos");
+$query = new QueryBuilder($pdo);
+$tasks = $query->all("todos");
 
 require 'index.template.php';

@@ -3,9 +3,25 @@
 
 class QueryBuilder{
 
-    function all(PDO $pdo,$table)
+    public $pdo;
+
+    /**
+     * QueryBuilder constructor.
+     * @param $pdo
+     */
+    public function __construct(PDO $pdo)
     {
-        $query = $pdo->prepare("SELECT * FROM {$table}");
+        $this->pdo = $pdo;
+    }
+
+    //Collaborators / Dependencies
+
+    //Dependency injection
+    // Quan s'utilitza continuament un objecte. Passar-lo a una propietat
+
+    function all($table)
+    {
+        $query = $this->pdo->prepare("SELECT * FROM {$table}");
 
         $query->execute();
 
@@ -14,5 +30,6 @@ class QueryBuilder{
 
     //querybuilder depèn de connection
     //type hinting: donar al sistema el tipus que ha de ser
+
 
 }
