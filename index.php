@@ -16,7 +16,11 @@ catch (PDOException $e){
     die("Ha hagut un error durant la connexió. Missatge: " . $e->getMessage());
 }
 
+$query = $pdo->prepare('SELECT * FROM todos');
 
+$query->execute();
+
+var_dump($query->fetchAll());
 
 
 //require 'template.php';

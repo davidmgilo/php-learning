@@ -15,7 +15,7 @@ class Task {
         $this->description = $description;
         $this->completed = $completed;
     }
-
+//MËTODES. No funcions!!
     public function complete(){
         $this->completed = true;
     }
