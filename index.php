@@ -3,16 +3,16 @@
 require 'functions.php';
 
 class Task {
-    public function __construct($a,$b,$c)
+    public function __construct($description)
     {
-//        echo "nova tasca construida";
-        echo $a;
-        echo $b;
-        echo $c;
+        echo $description;
     }
 }
 
-$task = new Task('patata','b','c');
+$task = new Task("Aprendre PHP");
+$task2 = new Task("Netejar habitació");
+$task3 = new Task("Comprar pa");
+$task4 = new Task("Sortir més");
 //$task2 = new Task();
 //$task3 = new Task();
 
