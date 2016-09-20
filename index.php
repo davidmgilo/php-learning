@@ -20,7 +20,7 @@ $query = $pdo->prepare('SELECT * FROM todos');
 
 $query->execute();
 
-var_dump($query->fetchAll() [0][1]);
+var_dump($query->fetchAll(PDO::FETCH_OBJ)[0]->description);
 
 
 //require 'template.php';
