@@ -3,9 +3,12 @@
 require 'functions.php';
 
 class Task {
+
+    public $description;
+
     public function __construct($description)
     {
-        echo $description;
+        $this->description = $description;
     }
 }
 
