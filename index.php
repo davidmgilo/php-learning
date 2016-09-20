@@ -10,8 +10,9 @@ require 'Task.php';
 // PLAIN OLD OBJECT
 // CONTENEDOR / ESTRUCTURA DE DADES
 $task = new Task("Aprendre PHP", false);
-var_dump($task->description);
-var_dump($task->completed);
+var_dump($task);
+$task->complete();
+var_dump($task);
 
 //$task2 = new Task("Netejar habitació", true);
 //$task3 = new Task("Comprar pa", false);
