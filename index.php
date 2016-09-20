@@ -12,6 +12,7 @@ require 'Task.php';
 $task = new Task("Aprendre PHP", false);
 var_dump($task);
 $task->complete();
+$task->description("Un altra cosa");
 var_dump($task);
 
 //$task2 = new Task("Netejar habitació", true);
