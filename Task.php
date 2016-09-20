@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * POPO: Plain Old PHP Object | Contenedor de tasques | Model
+ * Només emmagatzema una tasca.
+ */
 class Task {
 
     protected $description;
@@ -24,12 +28,5 @@ class Task {
         return $this->completed;
     }
 
-    // fer get i set alhora
-    public function completed ($completed=null){
-        if($completed==null){
-            return $completed;
-        }
-        $this->completed = $completed;
-    }
 }
 
