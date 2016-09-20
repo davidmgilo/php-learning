@@ -36,6 +36,7 @@ function connectDb()
         die("Ha hagut un error durant la connexió. Missatge: " . $e->getMessage());
     }
 }
+
 /**
  * @param $pdo
  */

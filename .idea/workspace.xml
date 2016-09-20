@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d65059-9db4-42d0-908d-54a035736928" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/template.php" afterPath="$PROJECT_DIR$/index.template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -50,10 +48,10 @@
             <entry file="file://$PROJECT_DIR$/functions.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="373">
-                  <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+                  <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
                   <folding>
                     <element signature="e#6#86#0#PHP" expanded="true" />
-                    <marker date="1474398975307" expanded="true" signature="748:767" ph="SELECT * FRO... todos" />
+                    <marker date="1474399169447" expanded="true" signature="749:768" ph="SELECT * FRO... todos" />
                   </folding>
                 </state>
               </provider>
@@ -62,8 +60,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -86,8 +84,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -246,12 +244,12 @@
       <workItem from="1473965459131" duration="4137000" />
       <workItem from="1474033118898" duration="6722000" />
       <workItem from="1474378520778" duration="946000" />
-      <workItem from="1474385587079" duration="11220000" />
+      <workItem from="1474385587079" duration="11409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23025000" />
+    <option name="totallyTimeSpent" value="23214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1398" height="875" extended-state="4" />
@@ -325,7 +323,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1474398975307" expanded="true" signature="748:767" ph="SELECT * FRO... todos" />
+            <marker date="1474399169447" expanded="true" signature="749:768" ph="SELECT * FRO... todos" />
           </folding>
         </state>
       </provider>
@@ -389,18 +387,18 @@
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1474398975307" expanded="true" signature="748:767" ph="SELECT * FRO... todos" />
+            <marker date="1474399169447" expanded="true" signature="749:768" ph="SELECT * FRO... todos" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
       </provider>
