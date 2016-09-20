@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67d65059-9db4-42d0-908d-54a035736928" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task.php" afterPath="$PROJECT_DIR$/Task.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.php" afterPath="$PROJECT_DIR$/template.php" />
-    </list>
+    <list default="true" id="67d65059-9db4-42d0-908d-54a035736928" name="Default" comment="" />
     <ignored path="php-learning.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -225,12 +221,12 @@
       <workItem from="1473965459131" duration="4137000" />
       <workItem from="1474033118898" duration="6722000" />
       <workItem from="1474378520778" duration="946000" />
-      <workItem from="1474385587079" duration="2058000" />
+      <workItem from="1474385587079" duration="2194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13863000" />
+    <option name="totallyTimeSpent" value="13999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1398" height="875" extended-state="4" />
