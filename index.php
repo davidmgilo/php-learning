@@ -10,7 +10,9 @@ require 'database/QueryBuilder.php';
 
 $config = require 'config/database.php';
 
-$pdo = Connection::make($config);
+$message = require 'config/message.php';
+
+$pdo = Connection::make($config,$message);
 
 $query = new QueryBuilder($pdo);
 $tasks = $query->all("todos");

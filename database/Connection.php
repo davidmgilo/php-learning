@@ -6,7 +6,7 @@
 class Connection
 {
     //dependency injection : depen de la configuració , cal passar per paràmetres
-    public static function make($config){
+    public static function make($config,$message){
         try {
 
             $pdo = new PDO($config['dbtype'] . ':host=' .
@@ -16,7 +16,7 @@ class Connection
                 $config['password']);
             return $pdo;
         } catch (PDOException $e) {
-            die("Ha hagut un error durant la connexió. Missatge: " . $e->getMessage());
+            die($message['DatabaseErrorConnection'] . $e->getMessage());
         }
 
     }
