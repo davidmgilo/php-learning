@@ -8,7 +8,15 @@ require 'database/Connection.php';
 
 require 'database/QueryBuilder.php';
 
-$pdo = Connection::make();
+$config = [
+    'dbtype' => 'mysql',
+    'dbname' => 'prova',
+    'username' => 'root',
+    'password' => '',
+    'dbhost' => '127.0.0.1'
+];
+
+$pdo = Connection::make($config);
 
 $query = new QueryBuilder($pdo);
 $tasks = $query->all("todos");
