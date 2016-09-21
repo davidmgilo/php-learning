@@ -7,7 +7,7 @@
 //database = "prova";
 
 //Si no hi ha variables millor utilitzqar cometes simples.
-$config = [
+return [
     'dbtype' => 'mysql',
     'dbname' => 'prova',
     'username' => 'root',
