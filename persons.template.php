@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+<?php require 'menu.php' ?>
 <hi>
+
     <ul>
         <?php foreach ($tasks as  $task) : ?>
             <li>

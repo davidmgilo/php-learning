@@ -8,6 +8,7 @@
     <title>Contact</title>
 </head>
 <body>
+<?php require 'menu.php' ?>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam asperiores assumenda commodi corporis debitis delectus eius eos expedita facere fugit maxime non, quasi saepe sapiente similique tempore temporibus! Sunt.
 </body>
 </html>
