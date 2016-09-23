@@ -2,7 +2,7 @@
 return [
     '' => 'controllers/tasks.php',
     'persons' => 'controllers/persons.php',
-    'add/person' => 'controllers/addperson.php',
+    'addperson' => 'controllers/addperson.php',
     'about' => 'controllers/about.php',
     'contact' => 'controllers/contact.php',
     'names' => 'controllers/names.php',
