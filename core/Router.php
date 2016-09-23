@@ -12,10 +12,23 @@ class Router
     protected $routes = [];
 
     /**
-     * @param $routes
+     * @param Array $routes Array with routes
      */
     public function define($routes){
         $this->routes=$routes;
+    }
+
+
+    /**
+     * @param $routes Path to file with routes
+     * @return static
+     */
+    public static function load($routes)
+    {
+        $router = new static;
+        $router->routes = require $routes;
+
+        return $router;
     }
 
     /**
