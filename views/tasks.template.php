@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <?php require 'views/menu.php' ?>
+    <?php require 'menu.php' ?>
 
     <hi>
         <ul>
