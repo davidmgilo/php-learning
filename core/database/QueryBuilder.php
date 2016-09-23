@@ -28,6 +28,10 @@ class QueryBuilder{
         return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
     }
 
+    function afegirSolCamp ($table,$camp,$valor){
+
+    }
+
     //querybuilder depèn de connection
     //type hinting: donar al sistema el tipus que ha de ser
 

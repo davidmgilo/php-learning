@@ -4,6 +4,8 @@ require 'functions.php';
 
 require 'models/Task.php';
 
+require 'models/Person.php';
+
 require 'database/Connection.php';
 
 require 'database/QueryBuilder.php';
