@@ -25,7 +25,7 @@ class QueryBuilder{
 
         $query->execute();
 
-        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Person::class);
+        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
     }
 
     function afegirSolCamp ($table,$camp,$valor){
@@ -34,7 +34,7 @@ class QueryBuilder{
 
         $query->execute();
 
-        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Person::class);
+        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
     }
 
     //querybuilder depèn de connection
