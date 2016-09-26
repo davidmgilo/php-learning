@@ -25,11 +25,16 @@ class QueryBuilder{
 
         $query->execute();
 
-        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
+        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Person::class);
     }
 
     function afegirSolCamp ($table,$camp,$valor){
 
+        $query = $this->pdo->prepare("INSERT INTO {$table} ({$camp}) VALUES ('{$valor}')");
+
+        $query->execute();
+
+        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Person::class);
     }
 
     //querybuilder depèn de connection
