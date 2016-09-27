@@ -1,0 +1,20 @@
+{
+    "name": "davidmgilo/php-learning",
+    "description": "projecte php-learning with composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Martinez",
+            "email": "davidmgilo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "Davidmgilo\\Phplearning\\" : "/"
+        },
+        "files" : ["core/functions.php"]
+
+    }
+}

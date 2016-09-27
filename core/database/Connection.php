@@ -2,6 +2,7 @@
 
 
 
+namespace Davidmgilo\Phplearning;
 
 class Connection
 {

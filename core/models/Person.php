@@ -1,6 +1,8 @@
 <?php
 
 
+namespace Davidmgilo\Phplearning;
+
 class Person
 {
     protected $name;

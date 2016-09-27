@@ -1,14 +1,22 @@
 <?php
 
-require 'functions.php';
+use Davidmgilo\Phplearning\Connection;
+use Davidmgilo\Phplearning\QueryBuilder;
+use Davidmgilo\Phplearning\Person;
+use Davidmgilo\Phplearning\Task;
 
-require 'models/Task.php';
 
-require 'models/Person.php';
+require __DIR__ . "/../vendor/autoload.php";
 
-require 'database/Connection.php';
-
-require 'database/QueryBuilder.php';
+//require 'functions.php';
+//
+//require 'models/Task.php';
+//
+//require 'models/Person.php';
+//
+//require 'database/Connection.php';
+//
+//require 'database/QueryBuilder.php';
 
 $config = require 'config/database.php';
 

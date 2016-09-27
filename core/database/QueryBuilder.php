@@ -1,5 +1,6 @@
 <?php
 
+namespace Davidmgilo\Phplearning;
 
 class QueryBuilder{
 

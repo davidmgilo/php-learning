@@ -4,6 +4,9 @@
  * POPO: Plain Old PHP Object | Contenedor de tasques | Model
  * Només emmagatzema una tasca.
  */
+
+namespace Davidmgilo\Phplearning;
+
 class Task {
 
     public $description;
