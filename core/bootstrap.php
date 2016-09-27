@@ -1,12 +1,11 @@
 <?php
 
+require __DIR__ . "/../vendor/autoload.php";
+
 use Davidmgilo\Phplearning\Connection;
 use Davidmgilo\Phplearning\QueryBuilder;
 use Davidmgilo\Phplearning\Person;
 use Davidmgilo\Phplearning\Task;
-
-
-require __DIR__ . "/../vendor/autoload.php";
 
 //require 'functions.php';
 //

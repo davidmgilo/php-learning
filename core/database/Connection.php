@@ -4,6 +4,8 @@
 
 namespace Davidmgilo\Phplearning;
 
+use PDO;
+
 class Connection
 {
     //dependency injection : depen de la configuració , cal passar per paràmetres
