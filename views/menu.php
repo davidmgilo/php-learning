@@ -1,5 +1,4 @@
 <nav>
-    <!--        ul>(li>a)*4 -->
     <ul>
         <li><a href="/">Tasques</a></li>
         <li><a href="persons">Persones</a></li>
