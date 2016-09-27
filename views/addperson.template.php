@@ -1,4 +1,4 @@
-<?php require 'menu.php' ?>
+<?php require 'partials/header.php' ?>
 <form method="POST" action="/names">
 
     <label for="forName">Name: </label>
