@@ -1,6 +1,6 @@
 <?php
 
-namespace Davidmgilo\Phplearning;
+//namespace Davidmgilo\Phplearning;
 
 class QueryBuilder{
 
@@ -14,11 +14,6 @@ class QueryBuilder{
     {
         $this->pdo = $pdo;
     }
-
-    //Collaborators / Dependencies
-
-    //Dependency injection
-    // Quan s'utilitza continuament un objecte. Passar-lo a una propietat
 
     function all($table)
     {
@@ -38,8 +33,6 @@ class QueryBuilder{
         return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
     }
 
-    //querybuilder depèn de connection
-    //type hinting: donar al sistema el tipus que ha de ser
 
 
 }

@@ -2,10 +2,10 @@
 
 require __DIR__ . "/../vendor/autoload.php";
 
-use Davidmgilo\Phplearning\Connection;
-use Davidmgilo\Phplearning\QueryBuilder;
-use Davidmgilo\Phplearning\Person;
-use Davidmgilo\Phplearning\Task;
+//use Davidmgilo\Phplearning\Connection;
+//use Davidmgilo\Phplearning\QueryBuilder;
+//use Davidmgilo\Phplearning\Person;
+//use Davidmgilo\Phplearning\Task;
 
 //require 'functions.php';
 //

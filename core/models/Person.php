@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Davidmgilo\Phplearning;
+//namespace Davidmgilo\Phplearning;
 
 class Person
 {

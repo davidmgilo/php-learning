@@ -2,13 +2,13 @@
 
 
 
-namespace Davidmgilo\Phplearning;
+//namespace Davidmgilo\Phplearning;
 
-use PDO;
+//use PDO;
 
 class Connection
 {
-    //dependency injection : depen de la configuració , cal passar per paràmetres
+
     public static function make($config,$message){
         try {
 
@@ -24,9 +24,5 @@ class Connection
 
     }
 
-//    public function make(){
-//
-//    }
-// Equivalent
 
 }
