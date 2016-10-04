@@ -6,7 +6,7 @@
 //
 //database = "prova";
 
-//Si no hi ha variables millor utilitzqar cometes simples.
+//Si no hi ha variables millor utilitzar cometes simples.
 return [
     'dbtype' => 'mysql',
     'dbname' => 'prova',
