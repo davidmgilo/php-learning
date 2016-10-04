@@ -1,7 +1,5 @@
 {
-    "autoload":{
-        "classmap": [
-            "./"
-        ]
+    "autoload": {
+        "psr-4": {"Davidmgilo\\Myframework\\": "src/"}
     }
 }

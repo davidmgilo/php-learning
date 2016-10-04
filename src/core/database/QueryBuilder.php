@@ -1,6 +1,9 @@
 <?php
 
-//namespace Davidmgilo\Phplearning;
+namespace Davidmgilo\Myframework\core\database;
+
+use PDO;
+use Davidmgilo\Myframework\core\models\Task;
 
 class QueryBuilder{
 

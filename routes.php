@@ -1,9 +1,9 @@
 <?php
 return [
-    '' => 'controllers/tasks.php',
-    'persons' => 'controllers/persons.php',
-    'addperson' => 'controllers/addperson.php',
-    'about' => 'controllers/about.php',
-    'contact' => 'controllers/contact.php',
-    'names' => 'controllers/names.php',
+    '' => 'src/controllers/tasks.php',
+    'persons' => 'src/controllers/persons.php',
+    'addperson' => 'src/controllers/addperson.php',
+    'about' => 'src/controllers/about.php',
+    'contact' => 'src/controllers/contact.php',
+    'names' => 'src/controllers/names.php',
 ];

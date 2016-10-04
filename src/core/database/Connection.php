@@ -2,14 +2,14 @@
 
 
 
-//namespace Davidmgilo\Phplearning;
+namespace Davidmgilo\Myframework\core\database;
 
-//use PDO;
+use PDO;
 
 class Connection
 {
 
-    public static function make($config,$message){
+    public static function make( $config,$message){
         try {
 
             $pdo = new PDO($config['dbtype'] . ':host=' .

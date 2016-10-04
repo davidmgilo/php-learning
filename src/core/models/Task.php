@@ -5,7 +5,7 @@
  * Només emmagatzema una tasca.
  */
 
-//namespace Davidmgilo\Phplearning;
+namespace Davidmgilo\Myframework\core\models;
 
 class Task {
 
