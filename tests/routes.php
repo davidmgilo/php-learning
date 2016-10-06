@@ -1,9 +1,11 @@
 <?php
+namespace Davidmgilo\Myframework\tests;
+
 return [
-    '' => 'src/controllers/tasks.php',
-    'persons' => 'src/controllers/persons.php',
-    'addperson' => 'src/controllers/addperson.php',
-    'about' => 'src/controllers/about.php',
-    'contact' => 'src/controllers/contact.php',
-    'names' => 'src/controllers/names.php',
+    '' => __DIR__.'/../src/controllers/tasks.php',
+    'persons' => __DIR__.'/../src/controllers/persons.php',
+    'addperson' => __DIR__.'/../src/controllers/addperson.php',
+    'about' => __DIR__.'/../src/controllers/about.php',
+    'contact' => __DIR__.'/../src/controllers/contact.php',
+    'names' => __DIR__.'/../src/controllers/names.php',
 ];
