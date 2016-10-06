@@ -1,5 +1,7 @@
 <?php
 
+namespace Davidmgilo\Myframework\core;
+
 /**
  * Class Router
  */

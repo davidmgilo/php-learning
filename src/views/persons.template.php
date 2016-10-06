@@ -4,7 +4,7 @@
     <ul>
         <?php foreach ($tasks as  $task) : ?>
             <li>
-                    <?= $task->LastName ?>
+                    <?= $task->FirstName ?>
             </li>
         <?php endforeach; ?>
     </ul>
