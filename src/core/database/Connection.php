@@ -4,7 +4,7 @@
 
 namespace Davidmgilo\Myframework\core\database;
 
-use PDO;
+use PDO, PDOException;
 
 class Connection
 {

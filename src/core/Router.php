@@ -2,6 +2,8 @@
 
 namespace Davidmgilo\Myframework\core;
 
+use Exception;
+
 /**
  * Class Router
  */
@@ -14,7 +16,7 @@ class Router
     protected $routes = [];
 
     /**
-     * @param Array $routes Array with routes
+     * @param array $routes Array with routes
      */
     public function define($routes){
         $this->routes=$routes;
@@ -22,7 +24,7 @@ class Router
 
 
     /**
-     * @param $routes Path to file with routes
+     * @param $routes path to file with routes
      * @return static
      */
     public static function load($routes)

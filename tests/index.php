@@ -1,6 +1,6 @@
 <?php
 
-require "src/core/bootstrap.php";
+require __DIR__."/../src/core/bootstrap.php";
 
 use Davidmgilo\Myframework\core\Request;
 

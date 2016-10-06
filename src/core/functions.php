@@ -1,10 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: alumne
- * Date: 16/09/16
- * Time: 17:14
- */
+
+namespace Davidmgilo\Myframework\core;
+
+use PDO, PDOException;
 
 function hello($name){
     echo "Hola ". $name."!";
@@ -40,7 +38,7 @@ function connectDb()
 /**
  * @param $pdo
  */
-function allTasks($pdo)
+function allTasks(PDO $pdo)
 {
     $query = $pdo->prepare('SELECT * FROM todos');
 
