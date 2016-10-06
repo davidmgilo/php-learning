@@ -1,5 +1,4 @@
 <?php
-namespace Davidmgilo\Myframework\tests;
 
 return [
     '' => __DIR__.'/../src/controllers/tasks.php',
