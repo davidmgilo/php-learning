@@ -2,6 +2,8 @@
 
 namespace Davidmgilo\Myframework\core;
 
+use Davidmgilo\Myframework\core\models\Task;
+
 use PDO, PDOException;
 
 function hello($name){

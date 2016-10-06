@@ -1,4 +1,16 @@
 {
+    "name": "davidmgilo/php-learning",
+    "description": "Projecte de Framework de PHP",
+    "type": "project",
+    "homepage": "https://github.com/davidmgilo/php-learning",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Martinez",
+            "email": "davidmgilo@gmail.com"
+        }
+    ],
+    "require": {},
     "autoload": {
         "psr-4": {"Davidmgilo\\Myframework\\": "src/"}
     }
