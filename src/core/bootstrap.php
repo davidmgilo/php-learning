@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . "/../../vendor/autoload.php";
+require "./vendor/autoload.php";
 
 use Davidmgilo\Myframework\core\database\QueryBuilder;
 use Davidmgilo\Myframework\core\database\Connection;
